@@ -38,10 +38,10 @@
 (require 'use-package)
 
 ;; Install packages
-(use-package zenburn-theme
+(use-package dracula-theme
   :ensure t
   :config
-  (load-theme 'zenburn t))
+  (load-theme 'dracula t))
 
 (use-package company
   :ensure t
