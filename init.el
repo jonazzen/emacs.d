@@ -1,4 +1,4 @@
-;;; init.el --- My personal GNU Emacs configuration.
+;; init.el --- My personal GNU Emacs configuration.
 
 (let ((minver "26.3"))
       (when (version< emacs-version minver)
