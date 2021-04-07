@@ -46,6 +46,7 @@
 ;; Disable the annoying bell ring
 (setq ring-bell-function 'ignore)
 
+(column-number-mode)
 (global-display-line-numbers-mode t)
 
 ;; Setup the package management
