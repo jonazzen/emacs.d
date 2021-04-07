@@ -46,6 +46,8 @@
 ;; Disable the annoying bell ring
 (setq ring-bell-function 'ignore)
 
+(global-display-line-numbers-mode t)
+
 ;; Setup the package management
 (require 'package)
 
@@ -62,7 +64,6 @@
 
 ;; install the missing packages
 (dolist (package-list '(use-package magit))
-
   (unless (package-installed-p package-list)
     (package-install package-list)))
 
