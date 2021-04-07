@@ -91,12 +91,6 @@
   :config
   (add-hook 'emacs-lisp-mode-hook #'paredit-mode))
 
-(use-package which-key
-  :init (which-key-mode)
-  :diminish which-key-mode
-  :config
-  (set which-key-idle-delay 1))
-
 (require 'magit)
 
 (use-package magit
