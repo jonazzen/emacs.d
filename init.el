@@ -10,7 +10,7 @@
 
 ;;; Commentary:
 
-;; This is my personal Emacs configuration.  Nothing more, nothing less.
+;; This is my personal Emacs configuration. Nothing more, nothing less.
 
 ;;; License:
 
