@@ -46,17 +46,15 @@
 ;; Disable the annoying bell ring
 (setq ring-bell-function 'ignore)
 
+;; Add line numbers
 (column-number-mode)
 (global-display-line-numbers-mode t)
 
 ;; Setup the package management
 (require 'package)
-
 (add-to-list 'package-archives '("gnu" . "https://elpa.gnu.org/packages/") t)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
 (add-to-list 'package-archives '("org" . "https://orgmode.org/elpa/") t)
-
-;; activate all the packages
 (package-initialize)
 
 ;; fetch the list of packages available
